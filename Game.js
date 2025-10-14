@@ -2,7 +2,7 @@ let canvas=document.getElementById("gamecanvas")
 let ctx =canvas.getContext("2d")
 let  gridSize= 20
 
-let snake =[{x:gridSize,y:gridSize}]
+let snake =[{x:200,y:200}]
 let direction= {x:gridSize,y:0}
 let food = randomfood()
 
