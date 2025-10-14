@@ -27,7 +27,7 @@ setInterval(()=>{
 
 
 function draw(){
-    ctx.clearRect(0,0,canvas.clientWidth,canvas.height)
+    ctx.clearRect(0,0,canvas.Width,canvas.height)
 
 
     //draw snake
